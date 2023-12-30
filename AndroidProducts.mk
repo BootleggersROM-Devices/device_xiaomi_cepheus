@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_cepheus.mk
+    $(LOCAL_DIR)/bootleg_cepheus.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_cepheus-user \
-    evolution_cepheus-userdebug \
-    evolution_cepheus-eng
+    bootleg_cepheus-user \
+    bootleg_cepheus-userdebug \
+    bootleg_cepheus-eng
