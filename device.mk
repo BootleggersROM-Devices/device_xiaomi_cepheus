@@ -285,6 +285,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+# Log
+PRODUCT_PACKAGES += \
+    init.kmsg.sh
+
 # Media
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
