@@ -28,6 +28,7 @@ WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 BOOTLEGGERS_UDFPS_ANIMATIONS := true
 BOOTLEGGERS_DEVICE_SUPPORTS_APERTURE := false
+TARGET_FACE_UNLOCK_SUPPORTED = true
 
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
